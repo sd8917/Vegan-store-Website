@@ -191,15 +191,31 @@ vegan-store*/
 
 /*  card-section */
 
+.card-heading-text h2{
+
+}
+
+.para{
+    
+}
 
 .card-section .card-wrapper article{
-    width: 100%;
-    margin: 20px;
     background-color: #F5F6FB;
 }
 .card-wrapper{
-    height: 40vh;
+   
     display: flex;
+}
+.card-wrapper article{
+    width: 25%;
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+   
 }
 
 .card-wrapper article img{
@@ -210,6 +226,8 @@ vegan-store*/
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
+
+
 }
 
 
