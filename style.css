@@ -230,8 +230,23 @@ vegan-store*/
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
     transition: box-shadow 0.3s;
+    
+}
+.card-wrapper article:hover{
     box-shadow: 0px 0px 2px #ccc;
 }
+.card-wrapper article p{
+    font-size: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.5em;
+    font-weight: 500;    
+    font-family: 'Poppins', sans-serif;
+}
+    
+
 
 .card-wrapper article img{
     width: 80px;
@@ -241,8 +256,6 @@ vegan-store*/
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
-
-
 }
 
 
@@ -431,6 +444,3 @@ vegan-store*/
     padding: 30px 0px;
     font-family: 'Poppins', sans-serif;
 }
-
-
-
